@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ghinks/hello-world-javascript-action@203ddf5009ac952a31fc6cff8ec92204413b2458
+        uses: ghinks/hello-world-javascript-action@bd13b08ccf9d49d5dee0425dd6a948ae0526f4da
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
